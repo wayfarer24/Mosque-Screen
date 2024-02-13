@@ -88,7 +88,7 @@ class PrayerTimesWidget extends Component {
               <td>{this.state.prayerTimes['zuhr_begins']}</td>
               <td>
                 {this.state.prayerTimes['asr_2_begins']
-                  ? `/ ${this.state.prayerTimes['asr_2_begins']}`
+                  ? `${this.state.prayerTimes['asr_2_begins']}`
                   : ''}
               </td>
               <td>{this.state.prayerTimes['maghrib_begins']}</td>
